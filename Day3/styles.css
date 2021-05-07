@@ -1,0 +1,28 @@
+body{
+    font-size: 40px;
+    font-family: tahoma;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    background-color: rgba(255,0,0,.5);
+    padding:10px 20px;
+
+}
+a:Link{
+    color:red;
+
+}
+a:visited{
+color:green;
+
+}
+a:hover{
+    color:white;
+background-color: red;
+}
+a:active{
+    color:yellow;
+
+}
