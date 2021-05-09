@@ -15,8 +15,9 @@ body{
 }
 .main{
     width: 90%;
-    margin:  10px auto;
+    margin: 10px auto;
     padding: 20px 10px;
+    height: auto;
 }
 .topbar{
     display: flex;
