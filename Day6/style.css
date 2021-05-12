@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    padding:0;
+    margin: 0;
+}
+.wrapper{
+    background: url(image/img8.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width:100%;
+    background:rgba(0,0,0,0.4) ;
+}
+.logo{
+    width:auto;
+    height:60px;
+    padding:10px 50px;
+}
+.navbar ul{
+    float: right;
+    margin-right:20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+line-height: 80px;
+}
+.navbar ul li a{
+text-decoration:none;
+color:white;
+font-size:20px;
+padding:6px 13px;
+font-family:'Roboto',sans-serif;
+transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background: red;
+background-radius:2px;
+}
+.wrapper .center{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50% , -50%);
+    font-family:sans-serif;
+    user-select: none;
+}
+.center h1{
+    color:white;
+    font-size: 70px;
+    font-weight: bold;
+    width:900px;
+    text-align: center;
+}
+.center h2{
+    color:wheat;
+    font-size: 65px;
+    font-weight: bold;
+    width:885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttons{
+    margin:35px 280px;
+}
+.buttons button{
+    height:50px;
+    width:150px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#ffb3b3;
+    background: red;
+    border:1px solid #cc0000;
+    outline:none;
+    corsors:pointer;
+    border-radius: 25px;
+    transition:.5s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background:#cc0000;
+}
