@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    padding:0;
+    margin: 0;
+}
+.wrapper{
+    
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width:100%;
+    background:rgba(0,0,0,0.4) ;
+ margin: 0;
+}
+
+.navbar ul{
+    float: right;
+    margin-right:20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    padding:6px 13px;
+    font-family:'Roboto',sans-serif;
+    transition: .4s;
+    }
+    .title h2{
+        margin:50px;
+        font-size: 30px;
+    }
+    .title p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footer-content{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .footer-content h3{
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+    }
+    
+    
+    .socials{
+        list-style: none;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    
+    }
+    .socials li{
+        margin: 0 10px;
+    
+    }
+    .socials a{
+        text-decoration: none;
+        color:blue;
+    }
+    .socials a i{
+        font-size:1.1rem;
+        transition: color .4s ease;
+    
+    }
+    .socials a:hover i{
+    color:aqua;
+    }
+    .footer-bottom{
+        margin-left: 50px;
+        font-size: 20px;
+        width: 100vw;
+        padding:20px 0;
+    }
