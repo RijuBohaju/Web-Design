@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Raleway' ,sans-serif;
+    color: #fff;
+}
+.banner{
+   height: 100vh;
+   width: 100%;
+   background: url(image/img6.jpg);
+   background-position: top;
+   background-size: cover;
+   /*background-attachment:fixed;*/
+   background-repeat:no-repeat;
+}
+
+.banner .navbar{
+    margin-top: 4%;
+}
+.banner .navbar-brand{
+color:#fff;
+font-size: 1.8em;
+font-weight: 700;
+margin-left: 10%;
+}
+.banner .nav{
+    margin-right: 10%;
+}
+.banner .nav li a{
+    color:whitesmoke;
+    font-size: 1.2em;
+}
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+
+}
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color:rgb(92, 90, 90);
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 2em;
+    font-weight: 500;
+    color:rgb(73, 38, 38);
+    letter-spacing: 2px;
+}
+.banner .info a{
+    margin-left: 37%;
+    transform: translateY(-50%);
+    color:#fff;
+    background: #e91d43;
+    padding:10px 20px;
+   font-size: 2em;
+   font-weight: 600;
+    margin-top: 30px;
+}
+.banner .info a:hover{
+    background:#e91e63;
+}
